@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,0" />
+</head>
+<body>
+    <div class="main">
+    <div class="result" id="display"><textarea id="result" readonly ></textarea></div>
+        <div class="keys">
+            
+            <div class="item key"><p>7</p></div>
+            <div class="item key"><p>8</p></div>
+            <div class="item key"><p>9</p></div>
+            <div class="item backspace"><i class="fa-solid fa-delete-left fa-xl" style="color: #fafbff;"></i></div>
+            <div class="item key"><p>4</p></div>
+            <div class="item key"><p>5</p></div>
+            <div class="item key"><p>6</p></div>
+            <div class="item AC"><p>AC</p></div>
+            <div class="item key"><p>1</p></div>
+            <div class="item key"><p>2</p></div>
+            <div class="item key"><p>3</p></div>
+            <div class="item operator"><p>+</p></div>
+            <div class="item key"><p>.</p></div>
+            <div class="item key"><p>0</p></div>
+            <div class="item equal"><p>=</p></div>
+            <div class="item divide" onclick="appendOperator('/')"><i class="fa-solid fa-divide fa-xl" style="color: #ffffff;"></i></div>
+            <div class="item operator"><p>-</p></div>
+            <div class="item operator"><p>%</p></div>
+            <div class="item multiply" onclick="appendOperator('*')"><p>x</p></div>
+        
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/35657c66c6.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+<!-- <input type="text" id="result" readonly> -->
