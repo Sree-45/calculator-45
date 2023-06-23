@@ -5,7 +5,7 @@ function appendValue(value) {       //function for appending a number i.e operan
 }
 
 function appendOperator(operator) {             //function for appending a operator
-  resultInput.value += ' '+operator+' ';
+  resultInput.value += ' ' +operator+ ' ';
 }
 
 function calculateResult() {                    //function for calculating a result
